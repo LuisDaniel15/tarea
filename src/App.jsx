@@ -28,7 +28,7 @@ function App() {
     }
 
   return (
-    <main className='bg-gray-400 h-screen'>
+    <main className='bg-gray-300 h-screen'>
       <TaskForm createTask={createTas}/>
       <TaskList eliminarTask={eliminarTask} task={task}/>
     </main>
